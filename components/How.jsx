@@ -30,6 +30,9 @@ const HowItWorks = () => {
                         return (
                             <div key={hows.id}>
                                 <SectionInner align="center">
+                                    <Divider>
+                                        <Image src={hows.image} alt={hows.title} layout="responsive" />
+                                    </Divider>
 
                                     <Divider>
                                         <HeadingOne size="1rem">
@@ -42,11 +45,6 @@ const HowItWorks = () => {
                                         </HeadingOne>
                                         <Paragraph>{hows.description}</Paragraph>
                                     </Divider>
-
-                                    <Divider>
-                                        <Image src={hows.image} alt={hows.title} layout="responsive" />
-                                    </Divider>
-
                                 </SectionInner>
                                 <br />
                                 <br />
