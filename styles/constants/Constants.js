@@ -56,7 +56,7 @@ export const Button1  = styled.button`
 
 export const Section  = styled.div`
 width: 100%;
-padding: 1em 0;
+padding: 2.5em 0;
 `
 
 export const SectionInner = styled.div`
