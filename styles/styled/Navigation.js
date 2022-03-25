@@ -23,6 +23,10 @@ align-items: center;
 .Logo{
       cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    padding: .8em 0;
+}
 `
 
 export const NavigationItem  = styled.ul`
