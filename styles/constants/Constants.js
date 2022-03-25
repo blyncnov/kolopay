@@ -7,7 +7,7 @@ margin: 0 auto;
 `
 
 export const HeadingOne  = styled.h1`
-font-size: 2.5rem;
+font-size: 2rem;
 color: ${({Text}) => Text ? Text : "#412272"};
 `
 
