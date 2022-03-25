@@ -5,14 +5,17 @@ import Hero from './Hero';
 import Navigation from './Navigation';
 
 // styled-components
+import { HeaderContainer } from "../styles/styled/Header"
 
 const Header = () => {
     return (
         <>
-            <Navigation />
-            <Hero />
+            <HeaderContainer>
+                <Navigation />
+                <Hero />
+            </HeaderContainer>
         </>
     )
 }
 
-export default Header
+export default Header;

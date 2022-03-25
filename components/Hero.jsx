@@ -1,11 +1,15 @@
 import React from 'react';
 
 // styled-components
+import { Constraints } from "../styles/constants/Constants"
+
 
 const Hero = () => {
     return (
         <>
-            <h1>Hero</h1>
+            <Constraints Max="90%">
+                {/* <h1>THE BEST WAY TO SAVE TOWARD YOUR GOALS.</h1> */}
+            </Constraints>
         </>
     )
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 
 // styled-components
-import { } from "../styles/constants/Constants";
+import { Button1 } from "../styles/constants/Constants";
 
-const Button = () => {
+const Button = ({ title }) => {
     return (
         <>
-            <h1>Button</h1>
+            <Button1>{title}</Button1>
         </>
     )
 }
