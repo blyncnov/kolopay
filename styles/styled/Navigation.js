@@ -29,6 +29,23 @@ align-items: center;
 }
 `
 
+export const NavigationShadow  = styled.div`
+// width: 100%;
+// background-color: transparent;
+
+@media (max-width: 768px) {
+    position: absolute;
+    background-color: transparent;
+    transition: all 1s ease-in;
+    width: 100%;
+    height: 100vh;
+    left: ${({clicked}) => clicked ? "0" : "-100%"};
+    top: 0;
+    right: 0;
+  
+}
+`
+
 export const NavigationItem  = styled.ul`
 display: flex;
 gap: 2em;
@@ -51,6 +68,19 @@ li:hover{
 @media (max-width: 1100px) {
     display: none;
 }
+
+@media (max-width: 768px) {
+    display: block;
+    background-color: beige;
+    width: 50vw;
+    height: 100vh;
+
+        li {
+      padding: 1em;
+      border-bottom: 1px solid rgba(229, 229, 229, 0.21);
+    }
+
+}
 `
 
 export const NavigationButtonWrapper  = styled.div`
@@ -64,6 +94,7 @@ align-items: center;
 
 export const MobileIcon  = styled.div`
 display: none;
+z-index: 99999;
 
 @media (max-width: 768px) {
     display: block;

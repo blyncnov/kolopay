@@ -16,7 +16,8 @@ import {
     NavigationWrapper,
     NavigationItem,
     NavigationButtonWrapper,
-    MobileIcon
+    MobileIcon,
+    NavigationShadow
 } from "../styles/styled/Navigation"
 
 import { Constraints } from "../styles/constants/Constants"
@@ -39,25 +40,28 @@ const Navigation = () => {
                             <Image src={Logo} alt="Logo" />
                         </div>
 
-                        <NavigationItem>
-                            {NavigationLists.map((list) => {
-                                return (
-                                    <Link key={list.id} passHref={true} style={{ color: "#333" }} href={list.name} >
-                                        <li>
-                                            {list.name}
-                                        </li>
-                                    </Link>
-                                )
-                            })}
-                        </NavigationItem>
+                        <NavigationShadow clicked={isclicked} onClick={isClickedHandler} >
+                            <NavigationItem>
+                                {NavigationLists.map((list) => {
+                                    return (
+                                        <Link onClick={isClickedHandler} key={list.id} passHref={true} style={{ color: "#333" }} href={list.name} >
+                                            <li>
+                                                {list.name}
+                                            </li>
+                                        </Link>
+                                    )
+                                })}
+                            </NavigationItem>
+                        </NavigationShadow>
+
 
                         <NavigationButtonWrapper >
                             <Button title="Login" />
                             <Button title="Get Started" />
                         </NavigationButtonWrapper>
 
-                        <MobileIcon>
-                            {isclicked ? <FaTimes onClick={isClickedHandler} style={{ fontSize: "2em", fontweight: "bold" }} /> : <RiBarChartHorizontalLine onClick={isClickedHandler} style={{ fontSize: "2em", fontweight: "bold" }} />}
+                        <MobileIcon onClick={isClickedHandler} >
+                            {isclicked ? <FaTimes style={{ fontSize: "2em", fontweight: "bold" }} /> : <RiBarChartHorizontalLine style={{ fontSize: "2em", fontweight: "bold" }} />}
                         </MobileIcon>
 
                     </NavigationWrapper>
