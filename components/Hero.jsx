@@ -3,14 +3,19 @@ import Image from 'next/image';
 
 // Images
 import Banner from "../public/Images/assests/banner.svg"
+import PlayStore from "../public/Images/assests/google-play.svg"
+import AppleStore from "../public/Images/assests/iphone-store.svg"
+
+// Components
+import Button from "../constants/Button"
+import FlexToRow from "../constants/Button"
 
 // styled-components
-import Button from "../constants/Button"
-
 import {
     Constraints, Section,
     SectionInner, Divider,
-    HeadingOne, Paragraph
+    HeadingOne, Paragraph,
+    FlexBoxToRow
 } from "../styles/constants/Constants"
 
 import { ButtonFlexBox } from "../styles/styled/Hero"
@@ -27,17 +32,23 @@ const Hero = () => {
                             <Paragraph>Kolopay helps you easily save little by little towards your goals and you get up to 10% interest,all for free.
                                 Setup savings towards many goals e.g Just Savings, Rent, School fees, Car, etc.
                             </Paragraph>
-                            {/* <Paragraph></Paragraph> */}
+
                             <br />
                             <ButtonFlexBox>
                                 <Button title="Sign Up" Bg="#412272" />
                                 <Button title="Login" Bg="#412272" />
                             </ButtonFlexBox>
+                            <br />
+                            <FlexBoxToRow>
+                                <Image src={PlayStore} alt="Playstore" />
+                                <Image src={AppleStore} alt="AppleStore" />
+                            </FlexBoxToRow>
                         </Divider>
 
                         <Divider>
                             <Image src={Banner} alt="banner" layout="responsive" />
                         </Divider>
+
                     </SectionInner>
                 </Section>
             </Constraints>

@@ -24,7 +24,8 @@ export const NavigationLists = [
         {
         id: 5,
         name: "Blog",
-    }
+    },
+
 ]
 
 export default NavigationLists

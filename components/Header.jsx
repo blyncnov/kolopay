@@ -13,6 +13,7 @@ const Header = () => {
             <HeaderContainer>
                 <Navigation />
                 <Hero />
+
             </HeaderContainer>
         </>
     )
