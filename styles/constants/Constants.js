@@ -12,10 +12,14 @@ color: ${({Text}) => Text ? Text : "#412272"};
 `
 
 export const Paragraph = styled.p`
-font-size: 1.2rem;
+font-size: 14px;
 opacity: 0.6;
 line-height: 25px;
-color: ${({Text}) => Text ? Text : "black"};
+color: ${({ Text }) => Text ? Text : "black"};
+
+@media (max-width: 768px) {
+  font-size: 13px;
+}
 `
 
 export const Button1  = styled.button`
