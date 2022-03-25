@@ -42,7 +42,7 @@ export const NavigationShadow  = styled.div`
     left: ${({clicked}) => clicked ? "0" : "-100%"};
     top: 0;
     right: 0;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+//   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 `
 
@@ -72,7 +72,7 @@ li:hover{
 @media (max-width: 768px) {
     display: block;
     background-color: whitesmoke;
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 
