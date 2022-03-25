@@ -28,7 +28,7 @@ const HowItWorks = () => {
                 <Section>
                     {HowItWork.map((hows) => {
                         return (
-                            <>
+                            <div key={hows.id}>
                                 <SectionInner align="center">
                                     <Divider>
                                             <Image src={hows.image} alt={hows.title} layout="responsive" />                                      
@@ -47,7 +47,7 @@ const HowItWorks = () => {
                                 </SectionInner>
                                 <br />
                                 <br />
-                            </>
+                            </div>
                         )
                     })}
                 </Section>
