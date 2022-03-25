@@ -57,7 +57,7 @@ const Navigation = () => {
                         </NavigationButtonWrapper>
 
                         <MobileIcon>
-                            {isclicked ? <FaTimes onClick={isClickedHandler} style={{ fontSize: "1.5em", fontweight: "bold" }} /> : <RiBarChartHorizontalLine onClick={isClickedHandler} style={{ fontSize: "1.5em", fontweight: "bold" }} />}
+                            {isclicked ? <FaTimes onClick={isClickedHandler} style={{ fontSize: "2em", fontweight: "bold" }} /> : <RiBarChartHorizontalLine onClick={isClickedHandler} style={{ fontSize: "2em", fontweight: "bold" }} />}
                         </MobileIcon>
 
                     </NavigationWrapper>
