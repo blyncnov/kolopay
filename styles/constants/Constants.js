@@ -7,7 +7,7 @@ margin: 0 auto;
 `
 
 export const HeadingOne  = styled.h1`
-font-size: 2rem;
+font-size: ${({size}) => size ? size : "2rem"};
 color: ${({Text}) => Text ? Text : "#412272"};
 `
 
@@ -54,6 +54,18 @@ export const Button1  = styled.button`
       }
 `
 
+export const Circle  = styled.div`
+width: 50px;
+height: 50px;
+background-color: #412272;
+border-radius: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-weight: 700;
+`
+
 export const Section  = styled.div`
 width: 100%;
 padding: 2.5em 0;
@@ -70,11 +82,18 @@ justify-content: space-between;
 @media (max-width: 768px) {
   grid-template-columns: repeat(1, 1fr);
  grid-template-rows: repeat(1, 1fr);
+//  text-align: ${({align}) => align ? align : "none"};
 }
 `
 
 export const Divider  = styled.div`
 width: 100%;
+
+// .img_wrapper{
+//   width: 100%;
+//   max-width: 100%;
+// }
+
 `
 
 export const FlexBoxToRow = styled.div`
