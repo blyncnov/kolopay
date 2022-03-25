@@ -31,6 +31,7 @@ align-items: center;
 
 export const NavigationShadow  = styled.div`
 // width: 100%;
+z-index: 99;
 // background-color: transparent;
 
 @media (max-width: 768px) {

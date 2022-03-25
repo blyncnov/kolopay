@@ -6,12 +6,24 @@ max-width: ${({Max}) => Max ? Max : "90%"};
 margin: 0 auto;
 `
 
-export const Button1  = styled.div`
-   background-color: white;
-    color: #412272;
+export const HeadingOne  = styled.h1`
+font-size: 2.5rem;
+color: ${({Text}) => Text ? Text : "#412272"};
+`
+
+export const Paragraph = styled.p`
+font-size: 1.2rem;
+opacity: 0.6;
+line-height: 25px;
+color: ${({Text}) => Text ? Text : "black"};
+`
+
+export const Button1  = styled.button`
+   background-color:  ${({Bg}) => Bg ? Bg : "white"};
+    color: ${({Text}) => Text ? Text : "#412272"};
     border: 1px solid transparent;
     box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04),
-      0px 2px 4px rgba(96, 97, 112, 0.16);
+    0px 2px 4px rgba(96, 97, 112, 0.16);
     font-weight: 700;
     font-size: 13px;
     line-height: 20px;
@@ -33,6 +45,32 @@ export const Button1  = styled.div`
     border: 2px solid #412272;
       }
 
+      @media (max-width: 768px){
+        width: 100%;
+      }
 `
 
-export default Constraints  ;
+export const Section  = styled.div`
+width: 100%;
+padding: 1em 0;
+`
+
+export const SectionInner = styled.div`
+width: 100%;
+display: grid;
+gap: 2em;
+grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+align-items: center;
+justify-content: space-between;
+
+@media (max-width: 768px) {
+  grid-template-columns: repeat(1, 1fr);
+ grid-template-rows: repeat(1, 1fr);
+}
+`
+
+export const Divider  = styled.div`
+width: 100%;
+`
+
+export default Constraints;
