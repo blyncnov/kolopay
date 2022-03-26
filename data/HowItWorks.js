@@ -8,14 +8,14 @@ export const HowItWork = [
         id: 1,
         icon: "icon",
         title: "Create an Account'",
-        description: "Sign up on Kolopay here using your fullname,number,email address and password",
+        description: "Sign up on Kolopay here using your fullname, number, email address and password",
         image: Create,
     },
     {
         id: 2,
         icon: "icon",
         title: "Setup Saving Goals",
-        description: "Create your goal(s) with a name,amount you want to save and set a withdrawal date",
+        description: "Create your goal(s) with a name, amount you want to save and set a withdrawal date",
         image: SaveGoal,
     },
     {
