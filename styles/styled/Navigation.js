@@ -1,15 +1,21 @@
 import styled from "styled-components"
 
+export const NavigationContainerWrapper  = styled.div`
+width: 100%;
+height: 80px;
+  position: relative;
+`
+
 export const NavigationContainer  = styled.div`
 width: 100%;
 background-color: white;
 box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03),
       0px 2px 4px rgba(96, 97, 112, 0.14);
     color: #333;
-position: relative;
   position: fixed;
   top: 0;
   z-index: 999998;
+  
 `
 
 export const NavigationWrapper  = styled.div`
@@ -17,6 +23,7 @@ width: 100%;
 padding: 1.2em 0;
 color: #333;
 background-color: transparent;
+
 
 // FlexBox property
 
