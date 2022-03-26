@@ -44,7 +44,7 @@ const HowItWorks = () => {
                                             <h1>{hows.title}</h1>
                                             <br />
                                         </HeadingOne>
-                                        <Paragraph size="16px">{hows.description}</Paragraph>
+                                        <Paragraph size="13px">{hows.description}</Paragraph>
                                     </Divider>
                                 </SectionInner>
                                 <br />
