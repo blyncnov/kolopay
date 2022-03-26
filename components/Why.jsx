@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 // Components
 import { WhyUs } from "../styles/styled/WhyUs"
+import Button from '../constants/Button';
 
 // data 
 import { WhyKolopayData } from "../data/why"
@@ -32,8 +33,11 @@ const WhyKolopay = () => {
                                 </WhyUs>
                             )
                         })}
-
                     </SectionInner>
+                    <br />
+                    <div className="center" style={{ textAlign: 'center', display: "flex", justifyContent: 'center' }}>
+                        <Button Bg="#412272" BgT="transparent" Text="white" TexTH="#412272" title="Get Started For Free" bg="red" />
+                    </div>
                 </Constraints>
             </Section>
         </>
