@@ -52,8 +52,9 @@ const HowItWorks = () => {
                             </div>
                         )
                     })}
-                    <div className="center" style={{ textAlign: 'center', display: "flex" , justifyContent: 'center' }}>
-                        <Button Bg="#412272" BgT="transparent" Text="white" TexTH="#412272"  title="Get Started For Free" bg="red" />
+                    <br />
+                    <div className="center" style={{ textAlign: 'center', display: "flex", justifyContent: 'center' }}>
+                        <Button Bg="#412272" BgT="transparent" Text="white" TexTH="#412272" title="Get Started For Free" bg="red" />
                     </div>
                 </Section>
             </Constraints>
