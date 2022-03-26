@@ -18,7 +18,7 @@ line-height: 25px;
 color: ${({ Text }) => Text ? Text : "black"};
 
 @media (max-width: 768px) {
-  font-size: ${({ size }) => size ? size : "13px"};
+  font-size: ${({ size }) => size ? size : "14px"};
 }
 `
 
