@@ -35,8 +35,8 @@ const Hero = () => {
 
                             <br />
                             <ButtonFlexBox>
-                                <Button title="Sign Up" Bg="#412272" />
-                                <Button title="Login" Bg="#412272" />
+                                <Button title="Sign Up" />
+                                <Button title="Login" />
                             </ButtonFlexBox>
                             <br />
                             <FlexBoxToRow>

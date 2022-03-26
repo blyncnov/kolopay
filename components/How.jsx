@@ -15,6 +15,7 @@ import {
     HeadingOne, Paragraph,
     FlexBoxToRow, Circle
 } from "../styles/constants/Constants"
+import Button from '../constants/Button';
 
 
 
@@ -43,7 +44,7 @@ const HowItWorks = () => {
                                             <h1>{hows.title}</h1>
                                             <br />
                                         </HeadingOne>
-                                        <Paragraph>{hows.description}</Paragraph>
+                                        <Paragraph size="16px">{hows.description}</Paragraph>
                                     </Divider>
                                 </SectionInner>
                                 <br />
@@ -51,6 +52,9 @@ const HowItWorks = () => {
                             </div>
                         )
                     })}
+                    <div className="center" style={{ textAlign: 'center', display: "flex" , justifyContent: 'center' }}>
+                        <Button Bg="#412272" BgT="transparent" Text="white" TexTH="#412272"  title="Get Started For Free" bg="red" />
+                    </div>
                 </Section>
             </Constraints>
         </>
