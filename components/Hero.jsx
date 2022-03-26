@@ -40,13 +40,13 @@ const Hero = () => {
                             </ButtonFlexBox>
                             <br />
                             <FlexBoxToRow>
-                                <Image src={PlayStore} alt="Playstore" />
-                                <Image src={AppleStore} alt="AppleStore" />
+                                <Image eager="true" src={PlayStore} alt="Playstore" />
+                                <Image eager="true" src={AppleStore} alt="AppleStore" />
                             </FlexBoxToRow>
                         </Divider>
 
                         <Divider>
-                            <Image src={Banner} alt="banner" layout="responsive" />
+                            <Image src={Banner} placeholder="blur" blurDataURL={Banner} alt="banner" layout="responsive" />
                         </Divider>
 
                     </SectionInner>

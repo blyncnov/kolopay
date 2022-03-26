@@ -5,7 +5,6 @@ import Image from 'next/image';
 
 import { HowItWork } from "../data/HowItWorks"
 
-
 // styled-components
 import { How } from "../styles/styled/How"
 
@@ -13,7 +12,7 @@ import {
     Constraints, Section,
     SectionInner, Divider,
     HeadingOne, Paragraph,
-    FlexBoxToRow, Circle
+    Circle
 } from "../styles/constants/Constants"
 import Button from '../constants/Button';
 
@@ -32,7 +31,11 @@ const HowItWorks = () => {
                             <div key={hows.id}>
                                 <SectionInner align="center">
                                     <Divider>
-                                        <Image src={hows.image} alt={hows.title} layout="responsive" />
+                                        <Image                                        
+                                            quality={90}
+                                            src={hows.image}
+                                            alt={hows.title}
+                                            layout="responsive" />
                                     </Divider>
 
                                     <Divider>
