@@ -25,7 +25,7 @@ align-items: center;
 }
 
 @media (max-width: 768px) {
-    padding: .8em 0;
+    padding: 0.6em 0;
 }
 `
 
