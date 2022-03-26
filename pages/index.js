@@ -3,6 +3,7 @@ import Head from 'next/head'
 // Components
 import Header from '../components/Header'
 import How from '../components/How'
+import WhyKolopay from '../components/Why'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <How/>
+      <How />
+      <WhyKolopay/>
     </>
   )}
