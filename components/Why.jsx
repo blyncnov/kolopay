@@ -18,7 +18,7 @@ const WhyKolopay = () => {
     return (
         <>
             <Section>
-                <Constraints>
+                <Constraints Max="80%">
                     <h1 style={{ textAlign: "center", fontweight: "bold" }} >Why Kolopay ?</h1>
                     <br />
                     <SectionInner>
