@@ -49,7 +49,7 @@ const HowItWorks = () => {
                                     </Divider>
                                 </SectionInner>
                                 <br />
-                                <br />
+   
                             </div>
                         )
                     })}
