@@ -31,7 +31,7 @@ const HowItWorks = () => {
                             <div key={hows.id}>
                                 <SectionInner align="center">
                                     <Divider>
-                                        <Image                                        
+                                        <Image
                                             quality={90}
                                             src={hows.image}
                                             alt={hows.title}
@@ -39,15 +39,13 @@ const HowItWorks = () => {
                                     </Divider>
 
                                     <Divider>
-                                        <HeadingOne size="1rem">
-                                            <Circle >
-                                                {hows.id}
-                                            </Circle>
-                                            <br />
-                                            <h1>{hows.title}</h1>
-                                            <br />
-                                        </HeadingOne>
-                                        <Paragraph size="13px">{hows.description}</Paragraph>
+                                        <Circle >
+                                            {hows.id}
+                                        </Circle>
+                                        <br />
+                                        <h1>{hows.title}</h1>
+                                        <br />
+                                        <Paragraph size="13px">{hows.description}. {hows.description}</Paragraph>
                                     </Divider>
                                 </SectionInner>
                                 <br />

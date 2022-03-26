@@ -44,7 +44,7 @@ const Navigation = () => {
                             <NavigationItem>
                                 {NavigationLists.map((list) => {
                                     return (
-                                        <Link onClick={isClickedHandler} key={list.id} passHref={true} style={{ color: "#333" }} href={list.name} >
+                                        <Link onClick={isClickedHandler} key={list.id} passHref={true} style={{ color: "#333" }} href={`/${list.navigate}`} >
                                             <li>
                                                 {list.name}
                                             </li>
