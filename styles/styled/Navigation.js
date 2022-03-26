@@ -6,6 +6,10 @@ background-color: white;
 box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03),
       0px 2px 4px rgba(96, 97, 112, 0.14);
     color: #333;
+position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 999998;
 `
 
 export const NavigationWrapper  = styled.div`

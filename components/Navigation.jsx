@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaTimes } from 'react-icons/fa'
@@ -24,14 +24,35 @@ import { Constraints } from "../styles/constants/Constants"
 
 
 const Navigation = () => {
-    const [isclicked, setIsClicked] = useState(false)
+    const [isclicked, setIsClicked] = useState(false);
+    const [isScroll, setIsScroll] = useState(false);
 
     const isClickedHandler = () => {
         setIsClicked(!isclicked)
     }
+
+    useEffect(() => {
+
+        const isScrolledHandler = () => {
+            if (window.scrollY >= 50) {
+                setIsScroll(true)
+                console.log(window.scrollY);
+            }
+            else {
+                setIsScroll(false)
+            }
+        }
+
+        window.addEventListener("scroll", isScrolledHandler);
+
+        return () => window.removeEventListener("scroll", isScrolledHandler);
+
+    }, [])
+
+
     return (
         <>
-            <NavigationContainer>
+            <NavigationContainer >
                 {/*   <== You can pass a Max props e.g <Constraints  Max="90% /> 
                 to  Add a constraint , the default Value is 90% ==>  */}
                 <Constraints Max="90%">
