@@ -7,7 +7,7 @@ import Button from '../constants/Button';
 import { OurApps1, OurApps2, OurApps3 } from "../data/OurApps"
 
 // styled-components
-import { DownloadOurAppContainer } from "../styles/styled/DownloadOurApp";
+import { DownloadOurAppContainer, FlexBoxCenter } from "../styles/styled/DownloadOurApp";
 
 import {
     Constraints, Section,
@@ -24,25 +24,29 @@ const DownloadOurApp = () => {
             <DownloadOurAppContainer>
                 <Constraints>
                     <SectionInner>
-                      
-                        <Divider>
-                            <HeadingOne size="1.8em">{OurApps2.title}</HeadingOne>
-                            <br />
-                            <Paragraph >{OurApps2.description}</Paragraph>
-                            <br />
-                            <Button Bg="#412272" Text="white" title={OurApps2.button} />
-                        </Divider>
 
                         <Divider>
                             <Image src={OurApps1.image} layout="responsive" alt={OurApps1.id} />
                         </Divider>
 
                         <Divider>
-                            <HeadingOne size="1.8em">{OurApps3.title}</HeadingOne>
+                            <HeadingOne style={{ textAlign: 'center' }} size="1.8em">{OurApps2.title}</HeadingOne>
                             <br />
-                            <Paragraph>{OurApps3.description}</Paragraph>
+                            <Paragraph style={{ textAlign: 'center' }}>{OurApps2.description}</Paragraph>
                             <br />
-                            <Button Bg="#412272" Text="white" title={OurApps3.button} />
+                            <FlexBoxCenter>
+                                <Button Bg="#412272" Text="white" title={OurApps2.button} />
+                            </FlexBoxCenter>
+                        </Divider>
+
+                        <Divider>
+                            <HeadingOne size="1.8em" style={{ textAlign: 'center' }}>{OurApps3.title}</HeadingOne>
+                            <br />
+                            <Paragraph style={{ textAlign: 'center' }}>{OurApps3.description}</Paragraph>
+                            <br />
+                            <FlexBoxCenter>
+                                <Button Bg="#412272" Text="white" title={OurApps3.button} />
+                            </FlexBoxCenter>
                         </Divider>
 
                     </SectionInner>
