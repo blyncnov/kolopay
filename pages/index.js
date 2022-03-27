@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import How from '../components/How'
 import WhyKolopay from '../components/Why'
 import DownloadOurApp from '../components/DownloadOurApp'
+import LetsHelpYou from '../components/LetsHelpYou'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Header />
       <How />
       <WhyKolopay />
-      <DownloadOurApp/>
+      <DownloadOurApp />
+      <LetsHelpYou/>
     </>
   )}

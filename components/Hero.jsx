@@ -8,7 +8,6 @@ import AppleStore from "../public/Images/assests/iphone-store.svg"
 
 // Components
 import Button from "../constants/Button"
-import FlexToRow from "../constants/Button"
 
 // styled-components
 import {
