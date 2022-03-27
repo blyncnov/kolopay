@@ -29,25 +29,49 @@ const DownloadOurApp = () => {
                             <Image src={OurApps1.image} layout="responsive" alt={OurApps1.id} />
                         </Divider>
 
-                        <Divider>
-                            <HeadingOne style={{ textAlign: 'center' }} size="1.8em">{OurApps2.title}</HeadingOne>
+                        <SectionInner>
+
+                            <Divider>
+                                <HeadingOne style={{ textAlign: 'center' }} size="1.8em">{OurApps2.title}. </HeadingOne>
+                                <br />
+                                <Paragraph style={{ textAlign: 'center' }}>{OurApps2.description} </Paragraph>
+                                <br />
+                                <FlexBoxCenter>
+                                    <Button Bg="#412272" Text="white" title={OurApps2.button} />
+                                </FlexBoxCenter>
+                            </Divider>
+
+                            <Divider>
+                                <HeadingOne style={{ textAlign: 'center' }} size="1.8em">{OurApps3.title}.</HeadingOne>
+                                <br />
+                                <Paragraph style={{ textAlign: 'center' }}>{OurApps2.description} </Paragraph>
+                                <br />
+                                <FlexBoxCenter>
+                                    <Button Bg="#412272" Text="white" title={OurApps2.button} />
+                                </FlexBoxCenter>
+                            </Divider>
+
+                        </SectionInner>
+
+                        {/* <Divider>
+                            <HeadingOne style={{ textAlign: 'center' }} size="1.8em">{OurApps2.title} & {OurApps3.title}</HeadingOne>
                             <br />
-                            <Paragraph style={{ textAlign: 'center' }}>{OurApps2.description}</Paragraph>
+                            <Paragraph style={{ textAlign: 'center' }}>{OurApps2.description} </Paragraph>
                             <br />
                             <FlexBoxCenter>
                                 <Button Bg="#412272" Text="white" title={OurApps2.button} />
                             </FlexBoxCenter>
-                        </Divider>
+                        </Divider> */}
 
-                        <Divider>
+                        {/* <Divider>
                             <HeadingOne size="1.8em" style={{ textAlign: 'center' }}>{OurApps3.title}</HeadingOne>
                             <br />
-                            <Paragraph style={{ textAlign: 'center' }}>{OurApps3.description}</Paragraph>
+                            <Paragraph style={{ textAlign: 'center' }}></Paragraph>
                             <br />
                             <FlexBoxCenter>
                                 <Button Bg="#412272" Text="white" title={OurApps3.button} />
                             </FlexBoxCenter>
-                        </Divider>
+                        </Divider> */}
 
                     </SectionInner>
                 </Constraints>
