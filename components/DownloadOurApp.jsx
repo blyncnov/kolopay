@@ -24,9 +24,7 @@ const DownloadOurApp = () => {
             <DownloadOurAppContainer>
                 <Constraints>
                     <SectionInner>
-                        <Divider>
-                            <Image src={OurApps1.image} layout="responsive" alt={OurApps1.id} />
-                        </Divider>
+                      
                         <Divider>
                             <HeadingOne size="1.8em">{OurApps2.title}</HeadingOne>
                             <br />
@@ -36,12 +34,17 @@ const DownloadOurApp = () => {
                         </Divider>
 
                         <Divider>
+                            <Image src={OurApps1.image} layout="responsive" alt={OurApps1.id} />
+                        </Divider>
+
+                        <Divider>
                             <HeadingOne size="1.8em">{OurApps3.title}</HeadingOne>
                             <br />
                             <Paragraph>{OurApps3.description}</Paragraph>
                             <br />
                             <Button Bg="#412272" Text="white" title={OurApps3.button} />
                         </Divider>
+
                     </SectionInner>
                 </Constraints>
             </DownloadOurAppContainer>
