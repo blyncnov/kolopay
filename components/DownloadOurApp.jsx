@@ -28,15 +28,15 @@ const DownloadOurApp = () => {
                             <Image src={OurApps1.image} layout="responsive" alt={OurApps1.id} />
                         </Divider>
                         <Divider>
-                            <HeadingOne>{OurApps2.title}</HeadingOne>
+                            <HeadingOne size="1.5em">{OurApps2.title}</HeadingOne>
                             <br />
-                            <Paragraph>{OurApps2.description}</Paragraph>
+                            <Paragraph >{OurApps2.description}</Paragraph>
                             <br />
                             <Button Bg="#412272" Text="white" title={OurApps2.button} />
                         </Divider>
 
                         <Divider>
-                            <HeadingOne>{OurApps3.title}</HeadingOne>
+                            <HeadingOne size="1.5em">{OurApps3.title}</HeadingOne>
                             <br />
                             <Paragraph>{OurApps3.description}</Paragraph>
                             <br />

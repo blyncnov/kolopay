@@ -27,7 +27,7 @@ const WhyKolopay = () => {
                                 <WhyUs key={data.id}>
                                     <Image src={data.icon} alt={data.title} />
                                     <br />
-                                    <HeadingOne>{data.title}</HeadingOne>
+                                    <HeadingOne size="1.6em">{data.title}</HeadingOne>
                                     <br />
                                     <Paragraph style={{ textAlign: "center", fontweight: "bold" }}>{data.description}</Paragraph>
                                 </WhyUs>
