@@ -10,7 +10,7 @@ import { WhyKolopayData } from "../data/why"
 
 // styled-components
 import {
-    Section, Constraints, SectionInner, Divider,
+    Section, Constraints, SectionInner,
     Paragraph, HeadingOne
 } from "../styles/constants/Constants"
 

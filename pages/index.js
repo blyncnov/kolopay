@@ -4,6 +4,8 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import How from '../components/How'
 import WhyKolopay from '../components/Why'
+import DownloadOurApp from '../components/DownloadOurApp'
+
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       </Head>
       <Header />
       <How />
-      <WhyKolopay/>
+      <WhyKolopay />
+      <DownloadOurApp/>
     </>
   )}
