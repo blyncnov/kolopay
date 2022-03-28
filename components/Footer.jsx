@@ -86,6 +86,7 @@ const Footer = () => {
                     </SectionInner>
                     <br />
                     <br />
+                    <br />
                     <Divider>
                         <hr style={{ border: "1px solid white" }} />
                         <br />
