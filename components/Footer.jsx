@@ -74,8 +74,8 @@ const Footer = () => {
                                 <HeadingOne Text="#ffffff" size="1.3rem">Where We Are</HeadingOne>
                                 <br />
                                 <ul>
-                                    <address>3,Joel Ogunnaike street,
-                                        GRA Ikeja Lagos,
+                                    <address>3,Joel Ogunnaike street,<br/>
+                                        GRA Ikeja Lagos, <br />
                                         Nigeria.
                                     </address>
 
