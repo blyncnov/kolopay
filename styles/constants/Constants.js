@@ -68,7 +68,8 @@ font-weight: 700;
 
 export const Section  = styled.div`
 width: 100%;
-padding: 2.5em 0;
+// padding: 2.5em 0;
+padding: ${({padding}) => padding ? padding : "2.5em 0"}
 `
 
 export const SectionInner = styled.div`
@@ -93,6 +94,12 @@ width: 100%;
 //   width: 100%;
 //   max-width: 100%;
 // }
+
+li,
+address{
+  color: white;
+  margin: .3em 0;
+}
 
 `
 

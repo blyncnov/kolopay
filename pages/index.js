@@ -6,6 +6,8 @@ import How from '../components/How'
 import WhyKolopay from '../components/Why'
 import DownloadOurApp from '../components/DownloadOurApp'
 import LetsHelpYou from '../components/LetsHelpYou'
+import Footer from '../components/Footer'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -20,6 +22,8 @@ export default function Home() {
       <How />
       <WhyKolopay />
       <DownloadOurApp />
-      <LetsHelpYou/>
+      <LetsHelpYou />
+      <Footer />
+  
     </>
   )}
