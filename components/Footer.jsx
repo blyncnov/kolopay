@@ -88,12 +88,14 @@ const Footer = () => {
                     <br />
                     <Divider>
                         <hr style={{ border: "1px solid white" }} />
+                        <br />
                         <Paragraph style={{ color: "white", margin: ".5em 0", opacity: "0.9" }} >
                             KoloPay is a Mobile and Web Application that helps you save money little by little towards your planned goals over a period of time. Our savings platform aims to help you save and its totally free i.e no charges and no hidden charges.
                         </Paragraph>
+                        <br />
                         <hr style={{ border: "1px solid white" }} />
                         <br />
-                        <Paragraph style={{ color: "white", margin: ".5em 0", opacity: "1" }}>Ⓒ 2022 Kolopay.com All Rights Reserved.
+                        <Paragraph style={{ color: "white", margin: "1em 0", opacity: "1" }}>Ⓒ 2022 Kolopay.com All Rights Reserved.
                         </Paragraph>
                     </Divider>
                 </Constraints>
