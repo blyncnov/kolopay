@@ -33,7 +33,7 @@ const LetsHelpYou = () => {
                         </Divider>
 
                         <Divider>
-                            <FlexBoxToRow>
+                            <FlexBoxToRow justify="center">
                                 <Image eager="true" src={LetsHelp.image1} alt="Playstore" />
                                 <Image eager="true" src={LetsHelp.image2} alt="AppleStore" />
                             </FlexBoxToRow>
