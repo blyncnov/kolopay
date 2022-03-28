@@ -58,28 +58,31 @@ const Footer = () => {
                             </ul>
                         </Divider>
 
-                        <Divider>
-                            <HeadingOne Text="#ffffff" size="1.3rem">Get In Touch</HeadingOne>
-                            <br />
-                            <ul>
-                                <li>+2349018063503 , +2347085544250</li>
-                                <li>info@kolopay.com</li>
-                                <li>Facebook</li>
+                        <SectionInner>
+                            <Divider>
+                                <HeadingOne Text="#ffffff" size="1.3rem">Get In Touch</HeadingOne>
+                                <br />
+                                <ul>
+                                    <li>+2349018063503 , +2347085544250</li>
+                                    <li>info@kolopay.com</li>
+                                    <li>Facebook</li>
 
-                            </ul>
-                        </Divider>
+                                </ul>
+                            </Divider>
 
-                        <Divider>
-                            <HeadingOne Text="#ffffff" size="1.3rem">Where We Are</HeadingOne>
-                            <br />
-                            <ul>
-                                <address>3,Joel Ogunnaike street,
-                                    GRA Ikeja Lagos,
-                                    Nigeria.
-                                </address>
+                            <Divider>
+                                <HeadingOne Text="#ffffff" size="1.3rem">Where We Are</HeadingOne>
+                                <br />
+                                <ul>
+                                    <address>3,Joel Ogunnaike street,
+                                        GRA Ikeja Lagos,
+                                        Nigeria.
+                                    </address>
 
-                            </ul>
-                        </Divider>
+                                </ul>
+                            </Divider>
+                        </SectionInner>
+
                     </SectionInner>
                 </Constraints>
             </FooterContainer>
