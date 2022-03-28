@@ -74,7 +74,7 @@ const Footer = () => {
                                 <HeadingOne Text="#ffffff" size="1.3rem">Where We Are</HeadingOne>
                                 <br />
                                 <ul>
-                                    <address>3,Joel Ogunnaike street,<br/>
+                                    <address>3,Joel Ogunnaike street,<br />
                                         GRA Ikeja Lagos, <br />
                                         Nigeria.
                                     </address>
@@ -84,8 +84,21 @@ const Footer = () => {
                         </SectionInner>
 
                     </SectionInner>
+                    <br />
+                    <br />
+                    <Divider>
+                        <hr style={{ border: "1px solid white" }} />
+                        <Paragraph style={{ color: "white", margin: ".5em 0", opacity: "0.9" }} >
+                            KoloPay is a Mobile and Web Application that helps you save money little by little towards your planned goals over a period of time. Our savings platform aims to help you save and its totally free i.e no charges and no hidden charges.
+                        </Paragraph>
+                        <hr style={{ border: "1px solid white" }} />
+                        <br />
+                        <Paragraph style={{ color: "white", margin: ".5em 0", opacity: "1" }}>Ⓒ 2022 Kolopay.com All Rights Reserved.
+                        </Paragraph>
+                    </Divider>
                 </Constraints>
             </FooterContainer>
+
             <DevelopedBy >
                 <h5 style={{ textAlign: 'center' }}>Redesign By {''}
                     <span >
